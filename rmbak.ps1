@@ -1,1 +1,0 @@
-ls *.bak -Recurse | foreach {rm $_}
