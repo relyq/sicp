@@ -29,7 +29,6 @@
 ;Give concise mathematical definitions for the functions computed by the procedures f, g, and h for positive integer values of n. For example, (k n) computes 5n2.
 
 
-(A 1 10)
 #|
 (cond ((= 10 0) 0)
       ((= 1 0) (* 2 10))
@@ -54,7 +53,6 @@
 
 ; (A 1 10) ; 2^10 = 1024
 
-(A 2 4)
 #|
 (cond ((= 4 0) 0)
       ((= 2 0) (* 2 4))
@@ -90,4 +88,6 @@
 (A 3 3) -> 2^16
 |#
 
-
+(f 4) ; 2n
+(g 4) ; 2^n
+(h 4) ; 2^(h (n-1))
